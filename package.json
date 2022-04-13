@@ -1,0 +1,45 @@
+{
+  "name": "graphbook",
+  "version": "0.0.1",
+  "description": "A facebook clone",
+  "main": "index.js",
+  "scripts": {
+    "client": "webpack serve --devtool inline-source-map --hot --config webpack.client.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uturuncuayaku/Graphbook.git"
+  },
+  "keywords": [
+    "facebook",
+    "clone",
+    "full-stack"
+  ],
+  "author": "Andres",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/uturuncuayaku/Graphbook/issues"
+  },
+  "homepage": "https://github.com/uturuncuayaku/Graphbook#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "bable-loader": "0.0.1-security",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
