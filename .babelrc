@@ -1,3 +1,10 @@
+/*
+ * Settings file for Babel.
+ * Modules we are loading to accomplish a GraphBook in React.
+ * Allow us to use JSX in our javascript files.
+ * 
+ */
+
 {
 	"presets": ["@babel/env","@babel/react"]
 }
